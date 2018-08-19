@@ -1,0 +1,65 @@
+.main__screen {
+  .head-title__subtitle {
+    padding-right: 7px;
+  }
+}
+
+.screen__img {
+  padding: 53px 42px 118px 36px;
+  text-align: center;
+  & img {
+    width: 100%;
+  }
+}
+
+.screen__light {
+  position: absolute;
+  top: -494px;
+  left: -1088px;
+  z-index: 100;
+
+  img {
+    width:1230px;
+  }
+}
+.screen__light1 {
+  position: absolute;
+  bottom: 90px;
+  left: -978px;
+  z-index: 100;
+
+  img {
+    width:1130px;
+  }
+}
+.screen__light2 {
+  position: absolute;
+  bottom: 2445px;
+  right: -798px;
+  z-index: 100;
+
+  img {
+    width:500px;
+  }
+}
+.screen__light3 {
+  position: absolute;
+  bottom: 1500px;
+  right: -1198px;
+  z-index: 100;
+
+  img {
+    width:1130px;
+  }
+}
+.screen__light4 {
+  position: absolute;
+  bottom: 950px;
+  left: -163px;
+  z-index: -1;
+
+  img {
+    width:400px;
+    transform: rotate(140deg);
+  }
+}

@@ -1,0 +1,60 @@
+.main__blog {
+  font-size: 0;
+}
+.blog__bg {
+  @include bg-img("../img/Blog_bg.png");
+  @extend .row;
+  height: 647px;
+  padding: 106px 35px 120px 51px;
+  position: relative;
+}
+.blog__articles {
+  position: absolute;
+
+
+}
+.blog__articles--arrow {
+  top: 45.6%;
+  left: 18.4%;
+  & img {
+    width: 100%;
+    max-width: 34px;
+  }
+}
+.blog__articles--left {
+  top: 16.5%;
+  left: 23%;
+  & img {
+    width: 100%;
+    max-width: 286px;
+  }
+}
+.blog__articles--middle {
+  top: 22.5%;
+  left: 48%;
+  & img {
+    width: 100%;
+    max-width: 285px;
+  }
+}
+.blog__articles--right {
+  right: 3%;
+  bottom: 6%;
+  & img {
+    width: 100%;
+    max-width: 256px;
+  }
+}
+.head-title--color {
+  color: $color4;
+
+}
+.head-title__title--color {
+  color: $color4;
+}
+.head-title--vertical {
+  transform: rotate(270deg);
+  width: 30%;
+  padding-top: 30px;
+  padding-left: 26px;
+}

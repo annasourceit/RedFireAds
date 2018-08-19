@@ -1,0 +1,45 @@
+.adapptive__wrapper {
+  padding: 50px 0 0 0;
+  @extend .row;
+  justify-content: flex-end;
+  position: relative;
+  height: 493px;
+}
+.head-title--width {
+  width: 50%;
+  padding: 8px 0 0 36px;
+}
+.adapptive__img {
+  position: absolute;
+  top: -179px;
+  left: 0;
+  width: 50%;
+  & img {
+    /*width: 100%;
+    height: 90%;
+    max-width: 562px;*/
+  }
+}
+.adapptive__element {
+  padding-top: 38px;
+  height: 67%;
+}
+
+.element {
+  margin: 0 auto;
+  height: 100%;
+  background-color: $color1;
+  width: 1px;
+  position: relative;
+  right: 28px;
+  &:after {
+    content: "•";
+    width: 17px;
+    height: 17px;
+    font-size: 30px;
+    color: $color1;
+    position: absolute;
+    bottom: 0;
+    left: -5px;
+  }
+}

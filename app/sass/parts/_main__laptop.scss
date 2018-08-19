@@ -1,0 +1,30 @@
+.laptop__wrapper {
+  @extend .row;
+  position: relative;
+  padding: 54px 0 0 9px;
+  height: 517px;
+}
+.laptop__img {
+  & img {
+    width: 100%;
+    max-width: 870px;
+    z-index: 100;
+    position: relative;
+  }
+}
+.laptop__img {
+
+  position: absolute;
+  top: -224px;
+  right: 11px;
+}
+
+.laptop__line {
+  position: absolute;
+  width: 1px;
+  height: 253px;
+  background-color: $color1;
+  top: 208px;
+  left: 143px;
+
+}

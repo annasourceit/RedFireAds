@@ -1,0 +1,91 @@
+.footer {
+  .container {
+    background-color: #474747;
+  }
+}
+.footer__wrapper {
+  position: relative;
+  height: 240px;
+
+}
+.footer__social {
+  height: 100%;
+  @extend .column;
+  justify-content: center;
+}
+.social__sofonalogo {
+  text-align: center;
+}
+.social__list {
+  @extend .row;
+  justify-content: center;
+  margin: 33px 0 39px 0;
+}
+.social__item {
+  margin-right: 14px;
+  &:last-child {
+    margin-right: 0;
+  }
+  display: inline-block;
+  width: 28px;
+  height: 28px;
+  border: 1px solid $color4;
+  border-radius: 14px;
+  text-align: center;
+  transition: all ease 0.4s;
+  &:hover {
+    border: 1px solid $color1;
+    .social__link {
+      color: $color1;
+    }
+  }
+}
+.social__link {
+  color: $color4;
+  line-height: 26px;
+}
+.social__copyright {
+  text-align: center;
+  color: $color4;
+  font-family: $font-family2;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.footer__next {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 240px;
+  height: 240px;
+  @extend .row;
+  align-items: center;
+  justify-content: center;
+  &:hover {
+    background-color: lighten(#474747, 20%);
+  }
+
+}
+.next__link {
+  display: block;
+  color: $color4;
+  position: relative;
+  top: -3px;
+
+}
+.next__text {
+  font-family: $font-family2;
+  font-size: 14px;
+  font-weight: 400;
+}
+.next__nameProject {
+  margin: 15px 0 7px 0;
+  font-family: $font-family2;
+  font-size: 26px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.next__arrow {
+  font-size:35px;
+  line-height: 25px;
+}

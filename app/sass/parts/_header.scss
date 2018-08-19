@@ -1,0 +1,30 @@
+.header {
+  @include bg-img("../img/header_bg.png");
+  background-position: center -111px;
+  position: relative;
+}
+.header:after {
+  content: '';
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+  height: 300px;
+  display: block;
+  background-image: linear-gradient( 360deg, $color1, rgba(13,27,64,0) 60%);
+}
+.header__title {
+  padding: 189px 0 171px 7px;
+  text-shadow: 2px 3px 10px rgba(0, 0, 0, 0.35);
+  color: #ffffff;
+  font-family: $font-family3;
+  font-size: 70px;
+  font-weight: 300;
+  text-transform: uppercase;
+  .span--fw700{
+    font-weight: 700;
+  }
+  .span--fw300{
+    font-weight: 300;
+    font-size: 70px;
+  }
+}
